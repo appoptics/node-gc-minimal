@@ -1,0 +1,19 @@
+{
+  "name": "gc-minimal",
+  "version": "1.0.0",
+  "description": "expose minimal garbage collection stats by polling or callback",
+  "main": "index.js",
+  "repository": "git@github.com:appoptics/gc-minimal.git",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "rebuild": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.13.2"
+  },
+  "gypfile": true
+}
